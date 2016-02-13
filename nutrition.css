@@ -1526,3 +1526,4 @@ td.visible-print,th.visible-print{display:table-cell!important}
 @media print 
 #h6-ao {text-align: right; margin-top: 1mm; margin-bottom: 1mm;}
 #p-right {text-align: right;}
+#ok_shareWidget {text-align: left;}
