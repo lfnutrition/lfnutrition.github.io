@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<rss version="2.0">  
+<channel>
+<title>Здоровое Питание RSS Feed</title>
+<link>http://nutrition.fornea.info/</link>
+<description>Полезные статьи о питании</description>
+<language>ru</language>
+
+<item>
+	<title>Введение в нутрициологию</title>    
+	<link>http://nutrition.fornea.info/ru/vvedenie-v-nutriciologiju.html</link>
+	<description>Как правильно питаться. Введение в науку о питании.</description>    
+</item>
+
+</channel>
+</rss>
