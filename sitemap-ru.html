@@ -117,9 +117,24 @@ footer {background-color: #555; color: white; padding: 15px;}
 <script type="text/javascript" src="http://www.google.ru/coop/cse/brand?form=cse-search-box&amp;lang=ru"></script>
 </div>
 
-<!-- Place this tag where you want the widget to render. -->
-<p><div class="g-page" data-width="180" data-href="https://plus.google.com/102117946770164083513" data-theme="dark" data-rel="publisher"></div>
-</div>
+<!-- Place this tag where you want the OK widget to render. -->
+<div id="ok_group_widget"></div>
+<script>
+!function (d, id, did, st) {
+  var js = d.createElement("script");
+  js.src = "https://connect.ok.ru/connect.js";
+  js.onload = js.onreadystatechange = function () {
+  if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+    if (!this.executed) {
+      this.executed = true;
+      setTimeout(function () {
+        OK.CONNECT.insertGroupWidget(id,did,st);
+      }, 0);
+    }
+  }}
+  d.documentElement.appendChild(js);
+}(document,"ok_group_widget","53898597236984","{width:200,height:285}");
+</script>
     
 
 
